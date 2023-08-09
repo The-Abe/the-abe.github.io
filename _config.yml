@@ -10,9 +10,11 @@ twitter_username: abevdw
 github_username: the-abe
 encoding: utf-8
 
-theme: minima
 plugins:
   - jekyll-feed
+
+postcss:
+  cache: false
 
 # exclude:
 #   - .sass-cache/
