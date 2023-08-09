@@ -1,0 +1,25 @@
+title: avdw.dev
+email: info@avdw.dev
+description: >-
+    Personal site of Abe van der Wielen aka avdw/the-abe/abuh.
+    Follow for developer related thoughts, ideas, explanations and code snippets.
+baseurl: ""
+url: "https://avdw.dev"
+twitter_username: abevdw
+github_username: the-abe
+
+theme: minima
+plugins:
+  - jekyll-feed
+
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
