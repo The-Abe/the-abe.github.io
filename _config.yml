@@ -1,5 +1,6 @@
 title: avdw.dev
 email: info@avdw.dev
+author: Abe van der Wielen
 description: >-
     Personal site of Abe van der Wielen aka avdw/the-abe/abuh.
     Follow for developer related thoughts, ideas, explanations and code snippets.
@@ -7,6 +8,7 @@ baseurl: ""
 url: "https://avdw.dev"
 twitter_username: abevdw
 github_username: the-abe
+encoding: utf-8
 
 theme: minima
 plugins:

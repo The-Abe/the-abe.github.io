@@ -1,8 +1,5 @@
 source "https://rubygems.org"
 
-# Jekyll theme for now
-gem "minima", "~> 2.5"
-
 gem "github-pages", group: :jekyll_plugins
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
