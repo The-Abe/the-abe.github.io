@@ -5,22 +5,21 @@ layout: default
 {{ content }}
 
 {%- if site.posts.size > 0 -%}
-<h2>{{ page.list_title | default: "Ideas" }}</h2>
-<ul>
   {%- for post in site.posts -%}
-  <li>
-    {%- assign date_format = "%b %-d, %Y" -%}
-    <span>{{ post.date | date: date_format }}</span>
-    <h3>
-      <a href="{{ post.url | relative_url }}">
-        {{ post.title | escape }}
-      </a>
-    </h3>
-    {%- if site.show_excerpts -%}
-    {{ post.excerpt }}
-    {%- endif -%}
-  </li>
+    <article>
+      <header onClick="window.location.href='{{post.url | relative_url}}'">
+        <strong>
+          <a href="{{ post.url | relative_url }}">
+            {{ post.title | escape }}
+          </a>
+        </strong>
+        <span class="date">
+          {{ post.date | date: "%Y-%m-%d" }}
+        </span>
+      </header>
+      {%- if site.show_excerpts -%}
+        {{ post.excerpt }}
+      {%- endif -%}
+    </article>
   {%- endfor -%}
-</ul>
-<p>subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
 {%- endif -%}

@@ -9,6 +9,7 @@ url: "https://avdw.dev"
 twitter_username: abevdw
 github_username: the-abe
 encoding: utf-8
+show_excerpts: true
 
 plugins:
   - jekyll-feed
