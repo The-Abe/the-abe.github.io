@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="dark">
   <head>
     {%- seo -%}
     <meta charset="UTF-8">
@@ -13,7 +13,7 @@
     {%- include google-analytics.html -%}
     {%- endif -%}
   </head>
-  <body data-theme="dark">
+  <body>
     {%- assign default_paths = site.pages | map: "path" -%}
     {%- assign page_paths = site.header_pages | default: default_paths -%}
     <nav class="container-fluid">
