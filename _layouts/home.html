@@ -4,22 +4,36 @@ layout: default
 
 {{ content }}
 
-{%- if site.posts.size > 0 -%}
-  {%- for post in site.posts -%}
-    <article>
-      <header onClick="window.location.href='{{post.url | relative_url}}'">
-        <strong>
-          <a href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
-          </a>
-        </strong>
-        <span class="date">
-          {{ post.date | date: "%Y-%m-%d" }}
-        </span>
-      </header>
-      {%- if site.show_excerpts -%}
-        {{ post.excerpt }}
-      {%- endif -%}
-    </article>
-  {%- endfor -%}
+{% for post in paginator.posts %}
+  <article>
+    <header onClick="window.location.href='{{post.url | relative_url}}'">
+      <strong>
+        <a href="{{ post.url | relative_url }}">
+          {{ post.title | escape }}
+        </a>
+      </strong>
+      <span class="date">
+        {{ post.date | date: "%Y-%m-%d" }}
+      </span>
+    </header>
+    {%- if site.show_excerpts -%}
+      {{ post.excerpt }}
+    {%- endif -%}
+  </article>
+{%- endfor -%}
+
+{% if paginator.total_pages > 1 %}
+  <div class="pagination">
+    {% if paginator.previous_page %}
+      <a href="{{ paginator.previous_page_path | relative_url }}" class="previous">
+        Previous
+      </a>
+    {% endif %}
+    <span class="page_number ">
+      Page: {{ paginator.page }} of {{ paginator.total_pages }}
+    </span>
+    {% if paginator.next_page %}
+      <a href="{{ paginator.next_page_path | relative_url }}" class="next">Next</a>
+    {% endif %}
+  </div>
 {%- endif -%}

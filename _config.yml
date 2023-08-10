@@ -10,12 +10,12 @@ twitter_username: abevdw
 github_username: the-abe
 encoding: utf-8
 show_excerpts: true
+paginate: 5
+paginate_path: "/page:num/"
 
 plugins:
   - jekyll-feed
-
-postcss:
-  cache: false
+  - jekyll-paginate
 
 # exclude:
 #   - .sass-cache/

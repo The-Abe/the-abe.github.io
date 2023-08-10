@@ -1,17 +1,44 @@
 ---
-title: About
+title: About me
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+# Hello 👋,
+I'm Abe
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+Backend developer / Sysadmin / DevOps person from the Netherlands.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+I'm currently employed as a full time engineer at
+[XpressionLabs](https://xpressionlabs.nl), where we make brand-management
+software for over 60.000 users. Our software facilitates the designing, ordering
+and printing of over 90.000 products.
 
+My responsibilities include:
 
-[jekyll-organization]: https://github.com/jekyll
+- Monitoring, provisioning and supporting ~30 servers
+- Technical support for our software
+- CI/CD
+- Quality assurance
+- Backups and recovery
+- Database management
+- Technical implementation of [ISO/IEC 27001](https://www.iso.org/standard/27001)
+
+#### Skills
+Ruby,
+Bash,
+Ansible,
+AWX,
+Linux,
+MySQL,
+Rails,
+Vim,
+Nginx,
+Docker,
+Kafka,
+Zabbix,
+Rust,
+etc.
+
+----------
+
+:wq - avdw

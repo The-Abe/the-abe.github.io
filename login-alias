@@ -1,0 +1,4 @@
+for SU_USER in $(grep "/bin/bash" /etc/passwd | cut -f 1 -d:)
+do
+  alias $SU_USER="sudo -u $SU_USER -E /bin/bash"
+done

@@ -24,3 +24,5 @@ gem "webrick", "~> 1.8", :group => :development
 # Catches exceptions and retries each request a limited number of times
 # As requested by jekyll serve.
 gem "faraday-retry", "~> 2.2", :group => :development
+
+gem "jekyll-paginate", "~> 1.1"
