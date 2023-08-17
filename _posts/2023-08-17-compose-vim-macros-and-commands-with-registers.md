@@ -40,7 +40,7 @@ CSV values before and after a comma.
 
 Buffer:
 {% highlight csv %}
-"foo column 2", "foo column 1"
+"foo column 1", "foo column 2"
 "bar column 1", "bar column 2"
 {% endhighlight %}
 
