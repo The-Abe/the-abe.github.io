@@ -5,8 +5,6 @@ author: Abe
 categories: snippets
 ---
 
-# Shortcut to login as anyone in bash
-
 If you ever find yourself switching users on Linux servers frequently, consider
 using the following snippet in your `.bashrc` file.
 

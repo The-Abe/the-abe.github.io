@@ -4,8 +4,6 @@ title: Hex colors in bash
 date: 2023-09-21 11:43 +0200
 ---
 
-# Using HEX colors in bash terminal
-
 If you've ever wanted to use custom colors in the bash terminal, you have
 probably run into the ansi escape sequences for 256 colors or even the RGB
 sequences.
