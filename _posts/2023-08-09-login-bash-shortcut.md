@@ -1,9 +1,11 @@
 ---
-title:  "Shortcut to login as anyone in bash."
+title:  Shortcut to login as anyone in bash
 date:   2023-08-09 09:21:52 +0200
 author: Abe
 categories: snippets
 ---
+
+# Shortcut to login as anyone in bash
 
 If you ever find yourself switching users on Linux servers frequently, consider
 using the following snippet in your `.bashrc` file.

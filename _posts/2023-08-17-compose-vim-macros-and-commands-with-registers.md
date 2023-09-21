@@ -4,6 +4,8 @@ title: Compose Vim macros and commands with registers
 date: 2023-08-17 11:03 +0200
 ---
 
+# Compose Vim macros and commands with registers
+
 While using *Vim*, you have probably come across writing *macros* and *commands* and
 making a mistake. Editing your command in the *Command mode* readline input, is
 a pain for complicated commands and don't even get me started on editing complex

@@ -11,7 +11,7 @@ task :test do
 end
 
 task :build do
-  sh "JEKYLL_ENV=production bundle exec jekyll build"
+  sh "JEKYLL_ENV=production bundle exec jekyll build --verbose --trace"
 end
 
 task :listtheme do

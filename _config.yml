@@ -17,7 +17,8 @@ plugins:
   - jekyll-feed
   - jekyll-paginate
 
-# exclude:
+exclude:
+  - Rakefile
 #   - .sass-cache/
 #   - .jekyll-cache/
 #   - gemfiles/
